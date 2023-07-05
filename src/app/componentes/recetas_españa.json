@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "imagen": "assets/españa/tortilla.jpg",
+        "nombre": "Tortilla",
+        "rating": 5,
+        "ingredientes": [
+            "papa",
+            "cebolla",
+            "huevo"
+            ],
+        "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!"
+
+    },
+    {
+        "id": 2,
+        "imagen": "assets/españa/tortilla.jpg",
+        "nombre": "Tortilla",
+        "rating": 5,
+        "ingredientes": [
+            "papa",
+            "cebolla",
+            "huevo"
+            ],
+        "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!"
+
+    }
+]
