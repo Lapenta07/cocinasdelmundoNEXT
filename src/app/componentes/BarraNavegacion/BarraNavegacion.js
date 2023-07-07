@@ -1,4 +1,5 @@
 import "./BarraNavegacion.css";
+import Link from 'next/link'
 
 export default function BarraNavegacion() {
 return (
@@ -12,24 +13,24 @@ return (
         <img src="./assets/cheff/facha.png" alt="logo" />
     </div>
     <ul>
-        <li>
-        <a href="#" className="active">Home</a>
-        </li>
-        <li>
-        <a href="../españa/españa.tsx">España</a>
-        </li>
-        <li>
-        <a href="./pages/francia.html">Francia</a>
-        </li>
-        <li>
-        <a href="./pages/italia.html">Italia</a>
-        </li>
-        <li>
-        <a href="./pages/nosotros.html"><i class="fa-solid fa-cart-shopping"></i><spam> 0</spam></a>
-        </li>
-        <li>
-        <a href="./pages/Contacto.html">Contacto</a>
-        </li>
+        <li><Link href="/españa">
+        Home
+        </Link></li>
+        <li><Link href="/españa">
+        España
+        </Link></li>
+        <li><Link href="/españa">
+        Francia
+        </Link></li>
+        <li><Link href="/españa">
+        Italia
+        </Link></li>
+        <li><Link href="/españa">
+        <i class="fa-solid fa-cart-shopping"></i><spam> 0</spam>
+        </Link></li>
+        <li><Link href="/españa">
+        Contacto
+        </Link></li>
     </ul>
     </nav>
     <label for="nav_check" className="hamburger">

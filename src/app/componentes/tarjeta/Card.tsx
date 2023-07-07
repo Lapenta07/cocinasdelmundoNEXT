@@ -1,4 +1,5 @@
 import '../tarjeta/Card.css';
+import Link from 'next/link';
 
 export default function Card ({producto}){
     
@@ -27,9 +28,9 @@ export default function Card ({producto}){
                 <p>{producto.descripcion}</p>
                 <div className="compra">
                     <h4 className="precio">${producto.valor}</h4>
-                    <button>
+                    <Link href="/" className="carrito">
                         <span><i className="fa-sharp fa-solid fa-cart-plus"></i></span>
-                    </button>            
+                    </Link>            
                 </div>
             </div>
                 

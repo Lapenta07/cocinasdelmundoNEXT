@@ -10,6 +10,7 @@
             "huevo"
             ],
         "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!",
+        "stock": 10,
         "valor": 3000
     },
     {
@@ -23,6 +24,7 @@
             "oliva"
             ],
         "descripcion": "Típico de la gastronomía de Galicia, norte de España. Conocido como polbo á feira en gallego. De preparación sencilla pero deliciosa que resalta la calidad y sabor del pulpo.",
+        "stock": 10,
         "valor": 20000
     },
     {
@@ -36,6 +38,7 @@
             "panceta"
             ],
         "descripcion": "Típico de la gastronomía vasca, de la provincia de Vizcaya. Se trata de un guiso elaborado a base de callos de ternera, que son las partes del estómago del animal. ¡Es una delicia!",
+        "stock": 10,
         "valor": 6500
     },
     {
@@ -49,6 +52,7 @@
             "manteca"
             ],
         "descripcion": "Consiste en un lechón o cerdo joven que se asa al horno hasta que la piel quede crujiente y dorada, mientras que la carne se mantiene jugosa y tierna. ¡Es una delicia!",
+        "stock": 10,
         "valor": 16000
     },
     {
@@ -62,6 +66,7 @@
             "bechamel"
             ],
         "descripcion": "Las croquetas españolas son una de las especialidades destacadas. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!",
+        "stock": 10,
         "valor": "700 x uni"
     },
     {
@@ -75,8 +80,10 @@
             "tomate"
             ],
         "descripcion": "Típico de la gastronomía asturiana, al norte de España. Se trata de una receta en la que los chipirones se cocinan en una salsa a base de tomate, vino blanco y otras especias",
+        "stock": 10,
         "valor": 7000
-    },{
+    },
+    {
         "id": 7,
         "imagen": "assets/españa/Gazpacho.jpg",
         "nombre": "Gazpacho",
@@ -87,6 +94,7 @@
             "pimientos"
             ],
         "descripcion": "Variante muy conocida del tradicional. Es originario de la región de Andalucía. Los ingredientes son tomates maduros, pepinos, pimientos verdes, cebolla, etc.",
+        "stock": 10,
         "valor": 2500
     },
     {
@@ -100,6 +108,7 @@
             "sal gruesa"
             ],
         "descripcion": "Variedad de pimientos pequeños originarios de la localidad de Padrón, en Galicia. Son conocidos por su sabor suave y ligeramente picante. Muy populares como tapa o entrante.",
+        "stock": 10,
         "valor": 4000   
     }
 ]

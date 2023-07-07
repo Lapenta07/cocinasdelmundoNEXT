@@ -116,17 +116,8 @@
     align-items: center;
     margin-top: 8px;
 }
-.compra button{
-    cursor: pointer;
-    background-color: #1064a6;
-    border: 0px;
-    box-shadow: 0px;
-    width: 4rem;
-    height: 4rem;
-    padding: 8px;
-}
 
-.compra button span{
+.compra .carrito span{
     color: #ff5c5c;
     font-size: 2rem;
 }
