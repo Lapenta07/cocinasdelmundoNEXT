@@ -26,7 +26,6 @@ export default function RootLayout({ children }) {
       
         {children}
       
-        <CardWrapper />
       </body>
     </html>
   )

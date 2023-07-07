@@ -85,7 +85,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 70px;
+  padding: 0 0px;
   border-radius: 0 0 10px 10px;
   margin: 0 auto;
 }
@@ -165,7 +165,7 @@ nav ul li a.active{
   }
   
   #nav_check:checked ~ nav{
-    left: 0;
+    left: -20px;
 
   }
   nav .logo{
