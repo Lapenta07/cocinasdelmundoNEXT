@@ -41,7 +41,7 @@
 .card .details{
     position: absolute;
     width: 100%;
-    bottom: -200px;
+    bottom: -212px;
     left: 0;
     padding: 20px;
     z-index: 2;
@@ -84,6 +84,7 @@
 .card .details .rating .fa-star{
     color: #f7f406;
     font-size: 1rem;
+    margin-right: 8px;
 }
 
 .card .details .rating span{
@@ -98,40 +99,37 @@
 .card .details .tags span{
     color: #ffffff;
     padding: 2px 5px;
+    margin-right: 8px;
     background: #ff5c5c;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .card .details .info{
     color: #ffffff;
     margin-top: 20px;
+    
 }
 
-.cheff{
-  display: flex;
-  margin-top: 38rem;
-  width: 100%;
-  float: right;
-  z-index: -1;
-  position: fixed;
-  justify-content: right;
-  scroll-behavior: smooth;
+.compra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.compra button{
+    cursor: pointer;
+    background-color: #1064a6;
+    border: 0px;
+    box-shadow: 0px;
+    width: 4rem;
+    height: 4rem;
+    padding: 8px;
 }
 
-.cheff img{
-  height: 170px;
-}
-@media (width <1441px){
-  .cheff{
-  margin-top: 20rem;
-  }
+.compra button span{
+    color: #ff5c5c;
+    font-size: 2rem;
 }
 
 
-@media (width <1101px){
-  .cheff{
-    width: 0px;
-    height: 0px;
-    overflow: hidden;
-  }
-}
+

@@ -9,20 +9,97 @@
             "cebolla",
             "huevo"
             ],
-        "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!"
-
+        "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!",
+        "valor": 3000
     },
     {
         "id": 2,
-        "imagen": "assets/españa/tortilla.jpg",
-        "nombre": "Tortilla",
+        "imagen": "assets/españa/pulpo.jpg",
+        "nombre": "Pulpo a feira",
         "rating": 5,
         "ingredientes": [
-            "papa",
-            "cebolla",
-            "huevo"
+            "pulpo",
+            "oliva",
+            "oliva"
             ],
-        "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!"
-
+        "descripcion": "Típico de la gastronomía de Galicia, norte de España. Conocido como polbo á feira en gallego. De preparación sencilla pero deliciosa que resalta la calidad y sabor del pulpo.",
+        "valor": 20000
+    },
+    {
+        "id": 3,
+        "imagen": "assets/españa/callos.jpg",
+        "nombre": "Tripotxas",
+        "rating": 5,
+        "ingredientes": [
+            "mondongo",
+            "chorizo",
+            "panceta"
+            ],
+        "descripcion": "Típico de la gastronomía vasca, de la provincia de Vizcaya. Se trata de un guiso elaborado a base de callos de ternera, que son las partes del estómago del animal. ¡Es una delicia!",
+        "valor": 6500
+    },
+    {
+        "id": 4,
+        "imagen": "assets/españa/cochinillo.jpg",
+        "nombre": "Cochinillo",
+        "rating": 5,
+        "ingredientes": [
+            "cochinillo",
+            "cebolla",
+            "manteca"
+            ],
+        "descripcion": "Consiste en un lechón o cerdo joven que se asa al horno hasta que la piel quede crujiente y dorada, mientras que la carne se mantiene jugosa y tierna. ¡Es una delicia!",
+        "valor": 16000
+    },
+    {
+        "id": 5,
+        "imagen": "assets/españa/croquetas.jpg",
+        "nombre": "Croquetas",
+        "rating": 5,
+        "ingredientes": [
+            "jamón",
+            "bacalao",
+            "bechamel"
+            ],
+        "descripcion": "Las croquetas españolas son una de las especialidades destacadas. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!",
+        "valor": "700 x uni"
+    },
+    {
+        "id": 6,
+        "imagen": "assets/españa/chipirones.jpg",
+        "nombre": "Chipirones",
+        "rating": 5,
+        "ingredientes": [
+            "chipirones",
+            "cebolla",
+            "tomate"
+            ],
+        "descripcion": "Típico de la gastronomía asturiana, al norte de España. Se trata de una receta en la que los chipirones se cocinan en una salsa a base de tomate, vino blanco y otras especias",
+        "valor": 7000
+    },{
+        "id": 7,
+        "imagen": "assets/españa/Gazpacho.jpg",
+        "nombre": "Gazpacho",
+        "rating": 5,
+        "ingredientes": [
+            "tomate",
+            "cebolla",
+            "pimientos"
+            ],
+        "descripcion": "Variante muy conocida del tradicional. Es originario de la región de Andalucía. Los ingredientes son tomates maduros, pepinos, pimientos verdes, cebolla, etc.",
+        "valor": 2500
+    },
+    {
+        "id": 8,
+        "imagen": "assets/españa/pimientos.jpg",
+        "nombre": "Pimientos",
+        "rating": 5,
+        "ingredientes": [
+            "pimientos",
+            "oliva",
+            "sal gruesa"
+            ],
+        "descripcion": "Variedad de pimientos pequeños originarios de la localidad de Padrón, en Galicia. Son conocidos por su sabor suave y ligeramente picante. Muy populares como tapa o entrante.",
+        "valor": 4000   
     }
 ]

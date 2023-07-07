@@ -1,7 +1,7 @@
 import '../tarjeta/Card.css';
 
-
 export default function Card ({producto}){
+    
 
     return(
         <div className="card">
@@ -25,11 +25,15 @@ export default function Card ({producto}){
             </div>
             <div className="info">
                 <p>{producto.descripcion}</p>
-                <a href="/index.html">
-                    <h4 className="link">RECETA</h4>
-                </a>
+                <div className="compra">
+                    <h4 className="precio">${producto.valor}</h4>
+                    <button>
+                        <span><i className="fa-sharp fa-solid fa-cart-plus"></i></span>
+                    </button>            
+                </div>
             </div>
-        </div>
+                
+            </div>
     </div>
 
     )

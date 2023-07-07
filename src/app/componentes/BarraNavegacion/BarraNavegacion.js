@@ -25,7 +25,7 @@ return (
         <a href="./pages/italia.html">Italia</a>
         </li>
         <li>
-        <a href="./pages/nosotros.html">Nosotros</a>
+        <a href="./pages/nosotros.html"><i class="fa-solid fa-cart-shopping"></i><spam> 0</spam></a>
         </li>
         <li>
         <a href="./pages/Contacto.html">Contacto</a>
