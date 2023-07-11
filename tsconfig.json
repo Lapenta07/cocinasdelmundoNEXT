@@ -21,14 +21,17 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/app/componentes/tarjeta/Contador.tsx"  ],
+    "**/*.tsx",
+    "src/app/componentes/tarjeta/Contador.tsx",
+    "pages/espana.js"
+, "src/app/espana/page.js", "src/app/componentes/tarjeta/Card.js"  ],
   "exclude": [
     "node_modules"
   ]

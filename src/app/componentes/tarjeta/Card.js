@@ -1,8 +1,16 @@
 import '../tarjeta/Card.css';
 import Link from 'next/link';
-
+//<i className="fa-solid fa-star"></i>
 export default function Card ({producto}){
-    
+
+    function createRating({
+        rating, 
+        starIcon = '⭐'
+    }) {
+        const stars = starIcon.repeat(rating);
+
+        return stars;
+    };
 
     return(
         <div className="card">
@@ -12,12 +20,7 @@ export default function Card ({producto}){
         <div className="details">
             <h3 className="titulo">{producto.nombre}</h3>
             <div className="rating">
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <span>{producto.rating}</span>
+                createRating({producto.rating})
             </div>
             <div className="tags">
                 <span>{producto.ingredientes[0]}</span>

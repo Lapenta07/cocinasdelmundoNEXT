@@ -16,7 +16,7 @@
 .card .receta::before{
     content: '';
     position: absolute;
-    bottom: -180px;
+    bottom: -190px;
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg, #1064a6 50%, transparent);
@@ -34,14 +34,14 @@
 }
 
 .card:hover .receta img{
-    transform:  translateY(-80px);
+    transform:  translateY(-150px);
     filter: blur(2px);
 }
 
 .card .details{
     position: absolute;
     width: 100%;
-    bottom: -212px;
+    bottom: -215px;
     left: 0;
     padding: 20px;
     z-index: 2;
@@ -63,7 +63,7 @@
 }
 
 .card:hover .details{
-    bottom:40px
+    bottom: 0;
 }
 
 .card .details .titulo{

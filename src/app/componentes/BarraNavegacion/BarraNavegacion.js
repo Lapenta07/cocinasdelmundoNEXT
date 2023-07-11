@@ -1,7 +1,7 @@
 import "./BarraNavegacion.css";
 import Link from 'next/link'
 
-export default function BarraNavegacion() {
+function BarraNavegacion() {
 return (
 <header>
     <div className="logo">
@@ -13,10 +13,10 @@ return (
         <img src="./assets/cheff/facha.png" alt="logo" />
     </div>
     <ul>
-        <li><Link href="/españa">
+        <li><Link href='/'>
         Home
         </Link></li>
-        <li><Link href="/españa">
+        <li><Link href="/espana">
         España
         </Link></li>
         <li><Link href="/españa">
@@ -41,3 +41,5 @@ return (
 </header>
 );
 }
+
+export default BarraNavegacion
