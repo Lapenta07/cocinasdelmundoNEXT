@@ -1,0 +1,53 @@
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center;
+    margin: 3.5rem auto;
+    background: #1064a6;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: white;
+}
+
+form ::placeholder{
+color: white;
+font-family: "comme";
+}
+
+form input,
+form textarea {
+width: 100%;
+padding: 1em;
+border: none;
+background: none;
+outline: 0;
+color: #fff;
+border-bottom: 1px solid rgb(3, 35, 54);
+}
+
+form button{
+width: 100%;
+padding: .7em;
+margin-top: 8px;
+border: none;
+border-radius: 10px;
+background: none;
+outline: 0;
+color: #fff;
+background: #ff5c5c;
+border: 0;
+text-transform: uppercase;
+padding: 1em;
+}
+
+form button:hover,
+form button:focus {
+background:white;
+font-weight: bolder;
+color: #ff5c5c;
+transition: background-color 2s ease-out;
+outline: 0;
+cursor: pointer;
+}
