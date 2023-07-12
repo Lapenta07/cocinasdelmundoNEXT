@@ -3,7 +3,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import CardWrapper from './componentes/tarjeta/CardWrapperespaña'
 const inter = Inter({ subsets: ['latin'] })
-import Link from 'next/link'
 
 export const metadata = {
   title: 'Cocinas del mundo',

@@ -17,18 +17,12 @@ return (
         Home
         </Link></li>
         <li><Link href="/espana">
-        España
-        </Link></li>
-        <li><Link href="/españa">
-        Francia
-        </Link></li>
-        <li><Link href="/españa">
-        Italia
+        Recetas
         </Link></li>
         <li><Link href="/españa">
         <i class="fa-solid fa-cart-shopping"></i><spam> 0</spam>
         </Link></li>
-        <li><Link href="/españa">
+        <li><Link href="/contacto">
         Contacto
         </Link></li>
     </ul>
