@@ -3,6 +3,7 @@ export default function Formulario () {
 
     return (
         <div className="formulario">
+            <h2 className="contacto">CONTACTO</h2>
             <form name="contact" method="POST" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact"></input>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre"></input>
