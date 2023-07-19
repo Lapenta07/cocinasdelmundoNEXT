@@ -48,6 +48,12 @@
     transition: 0.5s;
 }
 
+.card .details .info p{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
 @media (width < 450px){
   .card .details{
   padding: 20px 2px 20px 5px;
