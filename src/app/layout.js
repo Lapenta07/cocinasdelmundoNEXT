@@ -1,7 +1,7 @@
 import BarraNavegacion from './componentes/BarraNavegacion/BarraNavegacion'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import CardWrapper from './componentes/tarjeta/CardWrapperespaña'
+import StoreProvider from './componentes/Store'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -21,11 +21,15 @@ export default function RootLayout({ children }) {
         </head>
       <body className={inter.className}>
       <header>
-        <BarraNavegacion />
+        <StoreProvider>
+          <BarraNavegacion />
+        </StoreProvider>
+        
       </header>  
       
         {children}
-      
+
+        
       </body>
     </html>
   )

@@ -11,7 +11,7 @@
             "huevo"
             ],
         "descripcion": "La tortilla española es un plato típico de la gastronomía española. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!",
-        "stock": 10,
+        "stock": 5,
         "valor": 3000
     },
     {
@@ -25,8 +25,8 @@
             "oliva",
             "oliva"
             ],
-        "descripcion": "Típico de la gastronomía de Galicia, norte de España. Conocido como polbo á feira en gallego. De preparación sencilla pero deliciosa que resalta la calidad y sabor del pulpo.",
-        "stock": 10,
+        "descripcion": "Típico de la gastronomía de Galicia, norte de España. Conocido como polbo á feira en gallego. De preparación sencilla pero deliciosa que resalta la calidad y sabor del pulpo. ¡Es una delicia!",
+        "stock": 5,
         "valor": 20000
     },
     {
@@ -40,8 +40,8 @@
             "chorizo",
             "panceta"
             ],
-        "descripcion": "Típico de la gastronomía vasca, de la provincia de Vizcaya. Se trata de un guiso elaborado a base de callos de ternera, que son las partes del estómago del animal. ¡Es una delicia!",
-        "stock": 10,
+        "descripcion": "Típico de la gastronomía vasca, de la provincia de Vizcaya. Se trata de un guiso elaborado a base de callos de ternera, que son las partes del estómago del animal. Probalo, no te lo podes perder ¡Es una delicia!",
+        "stock": 5,
         "valor": 6500
     },
     {
@@ -55,8 +55,8 @@
             "cebolla",
             "manteca"
             ],
-        "descripcion": "Consiste en un lechón o cerdo joven que se asa al horno hasta que la piel quede crujiente y dorada, mientras que la carne se mantiene jugosa y tierna. ¡Es una delicia!",
-        "stock": 10,
+        "descripcion": "Consiste en un lechón o cerdo joven que se asa al horno hasta que la piel quede crujiente y dorada, mientras que la carne se mantiene jugosa y tierna. Probalo, no te lo podes perder ¡Es una delicia!",
+        "stock": 5,
         "valor": 16000
     },
     {
@@ -71,7 +71,7 @@
             "bechamel"
             ],
         "descripcion": "Las croquetas españolas son una de las especialidades destacadas. Es una receta muy popular en toda España y se sirve tanto como plato principal como aperitivo o tapa. ¡Es una delicia!",
-        "stock": 10,
+        "stock": 5,
         "valor": 700
     },
     {
@@ -85,8 +85,8 @@
             "cebolla",
             "tomate"
             ],
-        "descripcion": "Típico de la gastronomía asturiana, al norte de España. Se trata de una receta en la que los chipirones se cocinan en una salsa a base de tomate, vino blanco y otras especias",
-        "stock": 10,
+        "descripcion": "Típico de la gastronomía asturiana, al norte de España. Se trata de una receta en la que los chipirones se cocinan en una salsa a base de tomate, vino blanco y otras especias. Probalo. ¡Es una delicia!",
+        "stock": 5,
         "valor": 7000
     },
     {
@@ -100,8 +100,8 @@
             "cebolla",
             "pimientos"
             ],
-        "descripcion": "Variante muy conocida del tradicional. Es originario de la región de Andalucía. Los ingredientes son tomates maduros, pepinos, pimientos verdes, cebolla, etc.",
-        "stock": 10,
+        "descripcion": "Variante muy conocida del tradicional. Es originario de la región de Andalucía. Los ingredientes son tomates maduros, pepinos, pimientos verdes, cebolla, etc. Probalo. ¡Es una delicia!",
+        "stock": 5,
         "valor": 2500
     },
     {
@@ -115,8 +115,8 @@
             "oliva",
             "sal gruesa"
             ],
-        "descripcion": "Variedad de pimientos pequeños originarios de la localidad de Padrón, en Galicia. Son conocidos por su sabor suave y ligeramente picante. Muy populares como tapa o entrante.",
-        "stock": 10,
+        "descripcion": "Variedad de pimientos pequeños originarios de la localidad de Padrón, en Galicia. Son conocidos por su sabor suave y ligeramente picante. Muy populares como tapa o entrante. ¡Es una delicia!",
+        "stock": 5,
         "valor": 4000   
     },
     {
@@ -130,8 +130,8 @@
             "berenjena",
             "pimientos"
             ],
-        "descripcion": "Tradicional de la región de Provenza. Se trata de un guiso de verduras que combina tomates, berenjenas, calabacines, pimientos, cebolla, ajo, hierbas provenzales y aceite de oliva.",
-        "stock": 10,
+        "descripcion": "Tradicional de la región de Provenza. Se trata de un guiso de verduras que combina tomates, berenjenas, calabacines, pimientos, cebolla, ajo, hierbas provenzales y aceite de oliva. ¡Es una delicia!",
+        "stock": 5,
         "valor": 7500   
     },
     {
@@ -145,8 +145,8 @@
             "carne",
             "queso"
             ],
-        "descripcion": "Combina carne picada y puré de papas. Recibe su nombre en honor a Antoine-Auguste Parmentier, francés que promovió el consumo de papas en Francia en el siglo XVIII.",
-        "stock": 10,
+        "descripcion": "Combina carne picada y puré de papas. Recibe su nombre en honor a Antoine-Auguste Parmentier, francés que promovió el consumo de papas en Francia en el siglo XVIII. ¡Es una delicia!",
+        "stock": 5,
         "valor": 9000   
     },
     {
@@ -160,8 +160,8 @@
             "chocolate",
             "caramelo"
             ],
-        "descripcion": "Deliciosos dulces que se caracterizan por su textura crujiente por fuera y tierna por dentro. Son pequeñas galletas redondas y delicadas que se unen con un relleno cremoso.",
-        "stock": 10,
+        "descripcion": "Deliciosos dulces que se caracterizan por su textura crujiente por fuera y tierna por dentro. Son pequeñas galletas redondas y delicadas que se unen con un relleno cremoso. ¡Es una delicia!",
+        "stock": 5,
         "valor": 900 
     },
     {
@@ -175,8 +175,8 @@
             "romero",
             "sal gruesa"
             ],
-        "descripcion": "Consiste en el pecho de pato, de raza mulard, que se cocina a la parrilla o a la plancha. Es conocido por su carne jugosa y tierna, con una capa de grasa que le aporta sabor y textura.",
-        "stock": 10,
+        "descripcion": "Consiste en el pecho de pato, de raza mulard, que se cocina a la parrilla o a la plancha. Es conocido por su carne jugosa y tierna, con una capa de grasa que le aporta sabor y textura. ¡Es una delicia!",
+        "stock": 5,
         "valor": 12000   
     },
     {
@@ -190,8 +190,8 @@
             "jamon",
             "queso"
             ],
-        "descripcion": "Un almuerzo rápido o incluso como una cena ligera. Es un sándwich sabroso y reconfortante, con los sabores del jamón, el queso derretido y la mantequilla tostada.",
-        "stock": 10,
+        "descripcion": "Un almuerzo rápido o incluso como una cena ligera. Es un sándwich sabroso y reconfortante, con los sabores del jamón, el queso derretido y la mantequilla tostada. ¡Es una delicia!",
+        "stock": 5,
         "valor": 3500   
     },
     {
@@ -205,8 +205,8 @@
             "cebolla",
             "queso"
             ],
-        "descripcion": "Se sirve caliente y se puede disfrutar como un primer plato o como plato principal. Con cebollas caramelizadas, caldo de carne o pollo, pan y queso gratinado. Una verdadera delicia!",
-        "stock": 10,
+        "descripcion": "Se sirve caliente y se puede disfrutar como un primer plato o como plato principal. Con cebollas caramelizadas, caldo de carne o pollo, pan y queso gratinado. Probalo. ¡Es una delicia!",
+        "stock": 5,
         "valor": 4000   
     },
     {
@@ -220,8 +220,8 @@
             "huevo",
             "manteca"
             ],
-        "descripcion": "Bollo de origen francés, conocido por su forma de media luna y su textura hojaldrada y crujiente. Se ha convertido en un clásico de la pastelería y es apreciado en todo el mundo.",
-        "stock": 10,
+        "descripcion": "Bollo de origen francés, conocido por su forma de media luna y su textura hojaldrada y crujiente. Se ha convertido en un clásico de la pastelería y es apreciado en todo el mundo. ¡Es una delicia!",
+        "stock": 5,
         "valor": 600   
     },
     {
@@ -235,8 +235,8 @@
             "crema",
             "caramelo"
             ],
-        "descripcion": "Impresionante postre francés que consiste en una torre de profiteroles rellenos de crema y unidos con caramelo.Auténtica obra de arte culinaria que se presenta en ocasiones especiales.",
-        "stock": 10,
+        "descripcion": "Impresionante postre francés que consiste en una torre de profiteroles rellenos de crema y unidos con caramelo.Auténtica obra de arte culinaria que se presenta en ocasiones especiales. ¡Es una delicia!",
+        "stock": 5,
         "valor": 6000   
     },
     {
@@ -250,8 +250,8 @@
             "cebolla",
             "manteca"
             ],
-        "descripcion": "El risotto es un plato italiano de arroz cremoso y sabroso. Su origen es del norte de Italia, especialmente de la región de Lombardía y de la ciudad de Milán.",
-        "stock": 10,
+        "descripcion": "El risotto es un plato italiano de arroz cremoso y sabroso. Su origen es del norte de Italia, especialmente de la región de Lombardía y de la ciudad de Milán. El nuesto de hongos. Probalo. ¡Es una delicia!",
+        "stock": 5,
         "valor": 8500   
     },
     {
@@ -265,8 +265,8 @@
             "queso",
             "tomate"
             ],
-        "descripcion": "Su versión más reconocible y conocida se desarrolló en la ciudad de Nápoles, Italia, en el siglo XVII. Originalmente, la pizza era un pan plano cubierto con ingredientes sencillos.",
-        "stock": 10,
+        "descripcion": "Su versión más reconocible y conocida se desarrolló en la ciudad de Nápoles, Italia, en el siglo XVII. Originalmente, la pizza era un pan plano cubierto con ingredientes sencillos. ¡Es una delicia!",
+        "stock": 5,
         "valor": 9000   
     },
     {
@@ -280,8 +280,8 @@
             "queso",
             "guanciale"
             ],
-        "descripcion": "Originario de Lazio, relacionado con el término italiano `carbonaro`. Los ingredientes básicos son spaghetti, guanciale, yemas de huevo, queso Pecorino, sal y pimienta negra.",
-        "stock": 10,
+        "descripcion": "Originario de Lazio, relacionado con el término italiano `carbonaro`. Los ingredientes básicos son spaghetti, guanciale, yemas de huevo, queso Pecorino, sal y pimienta negra. ¡Es una delicia!",
+        "stock": 5,
         "valor": 12000   
     },
     {
@@ -295,8 +295,8 @@
             "oliva",
             "tomate"
             ],
-        "descripcion": "Antipasto tradicional de la región de Lacio. Era una forma tradicional de aprovechar el pan rancio, tostándolo y agregándole ingredientes para mejorar su sabor.",
-        "stock": 10,
+        "descripcion": "Antipasto tradicional de la región de Lacio. Era una forma tradicional de aprovechar el pan rancio, tostándolo y agregándole ingredientes para mejorar su sabor. Jamón, albahaca y tomate. ¡Es una delicia!",
+        "stock": 5,
         "valor": 1000   
     },
     {
@@ -310,8 +310,8 @@
             "vainilla",
             "crema"
             ],
-        "descripcion": "Conocido por su textura suave y cremosa, y su sabor a café y cacao. Es un postre muy popular y apreciado en todo el mundo. De la región de Véneto, en el noreste de Italia, en la década de 1960.",
-        "stock": 10,
+        "descripcion": "Conocido por su textura suave y cremosa, y su sabor a café y cacao. Es un postre muy popular y apreciado en todo el mundo. De la región de Véneto, en el noreste de Italia, en la década de 1960. ¡Es una delicia!",
+        "stock": 5,
         "valor": 4000   
     },
     {
@@ -326,7 +326,7 @@
             "pan rallado"
             ],
         "descripcion": "De la región de Lombardía, sencillo y sabroso. Apreciado por su textura crujiente y su sabor jugoso. Es un clásico de la cocina italiana y se encuentra en muchos menús de restaurantes italianos.",
-        "stock": 10,
+        "stock": 5,
         "valor": 12000   
     },
     {
@@ -340,8 +340,8 @@
             "sardina",
             "mayonesa"
             ],
-        "descripcion": "Plato elegante y sabroso que combina la carne de ternera con la cremosidad y el sabor salado de la salsa tonnata. Es un plato popular en eventos especiales y celebraciones en Italia",
-        "stock": 10,
+        "descripcion": "Plato elegante y sabroso que combina la carne de ternera con la cremosidad y el sabor salado de la salsa tonnata. Es un plato popular en eventos especiales y celebraciones en Italia ¡Es una delicia!",
+        "stock": 5,
         "valor": 10000   
     },
     {
@@ -355,8 +355,8 @@
             "tomate",
             "ajo"
             ],
-        "descripcion": "Plato tradicional que se ha adaptado a diferentes variantes y estilos según la región. Es perfecta para compartir y disfrutar en reuniones informales o como parte de una comida.",
-        "stock": 10,
+        "descripcion": "Plato tradicional que se ha adaptado a diferentes variantes y estilos según la región. Es perfecta para compartir y disfrutar en reuniones informales o como parte de una comida. ¡Es una delicia!",
+        "stock": 5,
         "valor": 8000   
     }
 ]

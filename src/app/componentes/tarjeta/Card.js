@@ -1,7 +1,25 @@
+"use client"
+import { useContext } from 'react';
 import '../tarjeta/Card.css';
-import Link from 'next/link';
-//<i className="fa-solid fa-star"></i>
+import { Store } from '../Store';
 export default function Card ({producto}){
+
+    //crear estado inicial
+    const {state, dispatch} = useContext(Store)
+
+    
+
+    const addToCart = () =>{
+        const existItem = state.cart.cartItems.find(x => x.id === producto.id);
+        const cantidad = existItem ? existItem.cantidad + 1 : 1;
+
+        if(producto.stock < cantidad){
+            alert("Lo siento, el producto no tiene más stock, elige otro")
+            return
+        }
+
+        dispatch({type: 'CARD_ADD_ITEM', payload:{...producto, cantidad}})
+    }
 
 
     return(
@@ -23,9 +41,9 @@ export default function Card ({producto}){
                 <p>{producto.descripcion}</p>
                 <div className="compra">
                     <h4 className="precio">${producto.valor}</h4>
-                    <Link href="/" className="carrito">
+                    <button className="carrito" onClick={addToCart}>
                         <span><i className="fa-sharp fa-solid fa-cart-plus"></i></span>
-                    </Link>            
+                    </button>            
                 </div>
             </div>
                 
