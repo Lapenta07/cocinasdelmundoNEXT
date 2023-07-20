@@ -1,14 +1,9 @@
-
-import CardWrapper from "../componentes/tarjeta/CardWrapperespaña";
-import StoreProvider from '../componentes/Store.js'
+"use client";
 
 
-export default function Carrito () {
+export default function Cart() {
+
     return (
-        
-        <div>
-            <h1>holandaa</h1>
-        </div>
-        
+        <h1>concha de tu madre</h1>
     )
 }

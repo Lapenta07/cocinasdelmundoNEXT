@@ -1,19 +1,8 @@
 'use client'
-import { Store } from "../Store";
-import { useContext, useEffect, useState } from "react";
 import "./BarraNavegacion.css";
 import Link from 'next/link'
 
 function BarraNavegacion() {
-
-    const {state, dispatch} = useContext(Store);
-
-    const {cart} = state;
-    const [cartItemsCount, setCartCantidad] = useState(0)
-
-    useEffect(()=>{
-        setCartCantidad(cart.cartItems.reduce((a, c)=> a + c.cantidad, 0))
-    },[cart.cartItems])
 
 
 return (
@@ -34,7 +23,7 @@ return (
         Recetas
         </Link></li>
         <li><Link href="/carrito">
-        <i class="fa-solid fa-cart-shopping"></i><spam>{cartItemsCount}</spam>
+        <i className="fa-solid fa-cart-shopping"></i><span>0</span>
         </Link></li>
         <li><Link href="/contacto">
         Contacto
