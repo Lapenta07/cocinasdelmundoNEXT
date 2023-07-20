@@ -1,9 +1,9 @@
-"use client";
+import CartWrapper from '../componentes/Carro/CartWrapper.js'
 
-
-export default function Cart() {
-
-    return (
-        <h1>concha de tu madre</h1>
+export default function Carrito (){
+    return(
+        <div>
+            <CartWrapper/>
+        </div>
     )
 }

@@ -7,7 +7,7 @@ export default function Card ({producto}){
     return(
         <div className="card">
         <div className="receta">
-            <img src={producto.imagen} alt="" />
+            <img src={producto.imagen} alt={producto.nombre} />
         </div>
         <div className="details">
             <h3 className="titulo">{producto.nombre}</h3>

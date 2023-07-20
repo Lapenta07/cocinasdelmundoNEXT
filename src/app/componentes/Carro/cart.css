@@ -1,0 +1,48 @@
+.tarjeta{
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px auto;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1064a6;
+    border-radius: 10px;
+}
+
+.tarjeta img{
+    height: 190px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.tarjeta .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+
+.tarjeta button{
+    background: transparent;
+    font-size: 1.5rem;
+    border: 0px;
+    cursor: pointer;
+    color: #ff5c5c;
+}
+
+.cantidad{
+    display: flex;
+    align-items: center;
+}
+
+.cantidad p{
+    color: white;
+    padding: 0 8px
+}
+
+.cantidad button{
+    font-size: 1.2rem;
+    color: #ff5c5c;
+}

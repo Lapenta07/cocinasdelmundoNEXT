@@ -20,11 +20,8 @@ export default function RootLayout({ children }) {
         </head>
       <body className={inter.className}>
      
-      <header>
-        
+      <header>  
           <BarraNavegacion />
-        
-        
       </header>  
       
         {children}

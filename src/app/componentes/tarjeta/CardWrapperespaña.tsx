@@ -3,6 +3,10 @@ import Card from './Card'
 import data from '../recetas_españa.json'
 
 export default function CardWrapper () {
+    
+
+
+
     return(
         <div className="wrapper">
             
