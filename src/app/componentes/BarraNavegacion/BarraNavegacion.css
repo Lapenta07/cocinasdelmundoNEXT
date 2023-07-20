@@ -190,3 +190,10 @@ nav ul li a.active{
     display: block;
   }
 }
+
+.numerito {
+  border-radius: 5px;
+  padding: 3px;
+  margin: 3px;
+}
+

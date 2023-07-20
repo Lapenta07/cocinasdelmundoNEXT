@@ -1,6 +1,8 @@
 import BarraNavegacion from './componentes/BarraNavegacion/BarraNavegacion'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { ShoppingCartProvider } from "./context/ShoppingCart"
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -19,14 +21,14 @@ export default function RootLayout({ children }) {
         <title>Cocinas del mundo</title>
         </head>
       <body className={inter.className}>
-     
+     <ShoppingCartProvider>
       <header>  
           <BarraNavegacion />
       </header>  
       
         {children}
 
-      
+      </ShoppingCartProvider>
       </body>
     </html>
   )

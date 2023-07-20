@@ -1,8 +1,30 @@
 "use client"
+import { useContext } from 'react';
 import '../tarjeta/Card.css';
-export default function Card ({producto}){
+import { CartContext } from '../../context/ShoppingCart';
 
-    
+export default function Card({ producto }) {
+const [cart, setCart] = useContext(CartContext);
+
+const addToCart = () => {
+    setCart((currItems) => {
+    const isItemsFound = currItems.find((item) => item.id === producto.id);
+    if (isItemsFound) {
+        return currItems.map((item) => {
+        if (item.id === producto.id) {
+            return { ...item, cantidad: item.cantidad + 1 };
+        } else {
+            return item;
+        }
+        });
+    } else {
+        return [...currItems, { id: producto.id, cantidad: 1, precio: producto.valor }];
+    }
+    });
+
+    };
+
+
 
     return(
         <div className="card">
@@ -23,7 +45,7 @@ export default function Card ({producto}){
                 <p>{producto.descripcion}</p>
                 <div className="compra">
                     <h4 className="precio">${producto.valor}</h4>
-                    <button className="carrito">
+                    <button className="carrito" onClick={()=> addToCart()}>
                         <span><i className="fa-sharp fa-solid fa-cart-plus"></i></span>
                     </button>            
                 </div>
